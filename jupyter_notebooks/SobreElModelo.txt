@@ -1,0 +1,6 @@
+Este Modelo, Reemplaza el KNN Imputer por en RandomForest para Rellenar los Nulos,
+Además gestiona los duplicados al principio, para no perder tanta información (que perdia casi 80000 rows)
+Y ahora la categoría "brand" la hemos categorizado por gama.
+Además voy a ser más estricto con los precios y otros valores que no sean realistas
+y voy a separar el dataframe por gamas
+
